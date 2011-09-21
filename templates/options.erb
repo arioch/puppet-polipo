@@ -1,0 +1,15 @@
+#
+# File managed by Puppet
+#
+
+# See the /usr/share/doc/polipo/README.Debian file for details on this file
+
+#method any
+#method static
+#method manual
+#method dhcp
+#method bootp
+#method ppp
+#method wvdial
+
+method <%= scope.lookupvar('polipo::params::method') -%>

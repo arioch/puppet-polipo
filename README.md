@@ -2,7 +2,7 @@
 
 	node host01 {
 	  class { 'polipo':
-	    proxyname => 'host01'
+	    sharedcache => 'true'
 	  }
 	}
 

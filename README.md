@@ -4,7 +4,7 @@
 	  class { 'polipo':
 	    proxyname => 'host01'
 	  }
-}
+	}
 
 ## Valid options
 
